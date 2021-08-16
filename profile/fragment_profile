@@ -141,6 +141,53 @@
             android:layout_weight="1"
             android:drawableRight="@drawable/ic_baseline_logout_24"
             android:text="Logout" />
+        
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_weight="1"
+            android:text="Customer Support: -" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViedw8"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/whatsapp2424"
+                android:drawablePadding="12dp"
+                android:text="WhatsApp" />
+
+            <TextView
+                android:id="@+id/textVihedw8"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_baseline_call_24"
+                android:drawablePadding="12dp"
+                android:text="Call us" />
+
+            <TextView
+                android:id="@+id/textVi8hedw8"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="12dp"
+                android:text="Email us" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
